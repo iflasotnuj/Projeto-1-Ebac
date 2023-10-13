@@ -1,0 +1,160 @@
+/*Layout da pag*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#conteudo,
+#criarconta,
+#contatos {
+    background-color: beige;
+}
+
+
+/*Fontes*/
+header,
+section h2,
+section h3 {
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*cabeçalho */
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Conteudo*/
+.png-mundial {
+    margin-right: 16px;
+}
+
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .conteiner,
+section .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .conteiner {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #3d3d88;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+/* Logos da empresa */
+.logos img {
+    height: 50px;
+}
+
+.logos li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+/*layout do cadastro*/
+#criarconta .conteiner {
+    display: block;
+}
+
+.layout-conta {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: blue;
+}
+
+input:focus, textarea:focus {
+    outline-color: blue;
+}
+
+/*layout fale conosco */
+#contatos .conteiner {
+    display: block;
+}
+
+.contatos-direto {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Img das redes sociais */
+.social-links img {
+    height: 25px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+
+/*Rodapé da pag*/
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 16px 0;
+}
